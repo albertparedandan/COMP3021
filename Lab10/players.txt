@@ -1,0 +1,26 @@
+4
+
+US 10000 10000 10000 2 3 Human
+0 SanFan 300 50 500
+1 LA 500 100 600
+Economist 80 100 60
+WarGeneral 100 80 60
+WarGeneral 60 80 100
+
+CN 100 100 100 2 2 Computer
+2 Beijing 200 50 100
+3 Shanghai 500 50 800
+Economist 80 80 80
+Scientist 100 100 100
+
+ID 100 100 100 2 2 Human
+4 Delhi 200 60 100
+5 Jaipur 500 60 800
+Economist 80 80 80
+Scientist 100 100 100
+
+JP 100 100 100 2 2 Computer
+6 Tokyo 200 40 100
+7 Osaka 500 40 800
+Economist 80 80 80
+Scientist 100 100 100

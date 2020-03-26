@@ -1,0 +1,14 @@
+2
+
+US 100 100 100 2 3
+1 SF 300 50 500
+3 LA 500 100 600
+Economist 80 100 60
+WarGeneral 100 80 60
+WarGeneral 60 80 100
+
+CN 100 100 100 2 2
+0 BJ 200 0 100
+2 HK 500 0 800
+Economist 80 80 80
+Scientist 100 100 100

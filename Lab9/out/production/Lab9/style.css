@@ -1,0 +1,9 @@
+.label {
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+}
+
+.list-view {
+    -fx-pref-width: 40em;
+    -fx-pref-height: 6em;
+}

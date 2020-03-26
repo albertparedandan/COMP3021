@@ -1,0 +1,189 @@
+#menu {
+    -fx-background-image: url("menu.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1600 900;
+    -fx-background-position: center center;
+    -fx-pref-width: 1600;
+    -fx-pref-height: 900;
+    -fx-font-size: 12px;
+    -fx-alignment: center;
+    -fx-spacing: 1.5em;
+}
+
+#menu .label {
+    -fx-font-size: 6em;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e4e4e4;
+    -fx-font-family: Georgia;
+}
+
+#menu .button {
+    -fx-font-size: 1.5em;
+    -fx-text-fill: white;
+    -fx-background-color: #28a745;
+    -fx-pref-width: 15em;
+    -fx-background-radius: 1em;
+    -fx-border-color: #28a745;
+    -fx-border-radius: 1em;
+    -fx-cursor: hand;
+}
+
+#menu .button:hover {
+    -fx-background-color: #189735;
+}
+
+/*
+#gameplay {
+    -fx-background-image: url("gameplay.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1600 900;
+    -fx-background-position: center center;
+    -fx-pref-width: 1600;
+    -fx-pref-height: 900;
+}
+*/
+
+/*
+#canvas {
+    -fx-pref-width: 1200;
+}
+*/
+
+#log-buffer {
+    -fx-min-height: 12em;
+}
+
+#info-bar {
+    -fx-spacing: 0.5em;
+    -fx-padding: 1em;
+    -fx-font-size: 12px;
+}
+
+#info-bar .label {
+    -fx-font-size: 1.5em;
+    -fx-font-weight: bold;
+    /* -fx-text-fill: white; */
+    -fx-font-family: Georgia;
+}
+
+#info-bar .list-view {
+    -fx-pref-height: 7em;
+}
+
+/*
+.info-text {
+    -fx-fill: white;
+}
+*/
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #238cd4;
+    -fx-text-fill: white;
+}
+
+.list-cell:odd {
+    -fx-background-color: white;
+}
+
+.list-cell:even {
+    -fx-background-color: #e4e4e4;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #bcbcbc;
+    -fx-text-fill: white;
+}
+
+#info-bar .button {
+    -fx-text-fill: white;
+    -fx-background-color: #28a745;
+    -fx-pref-width: 12em;
+    -fx-background-radius: 0.5em;
+    -fx-border-color: #28a745;
+    -fx-border-radius: 0.5em;
+    -fx-cursor: hand;
+}
+
+#info-bar .button:hover {
+    -fx-background-color: #189735;
+}
+
+#end-game {
+    -fx-background-image: url("gameover.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1600 900;
+    -fx-background-position: center center;
+    -fx-pref-width: 1600;
+    -fx-pref-height: 900;
+    -fx-spacing: 1.5em;
+    -fx-alignment: center;
+}
+
+#end-game .label {
+    -fx-text-fill: red;
+    -fx-font-size: 8em;
+    -fx-font-weight: bold;
+    -fx-font-family: Georgia;
+}
+
+#end-game #winner {
+    -fx-fill: white;
+    -fx-font-size: 4em;
+    -fx-font-family: Georgia;
+}
+
+#end-game .button {
+    -fx-font-size: 1.5em;
+    -fx-text-fill: white;
+    -fx-background-color: #28a745;
+    -fx-background-radius: 1em;
+    -fx-border-color: #28a745;
+    -fx-border-radius: 1em;
+    -fx-cursor: hand;
+}
+
+#end-game .button:hover {
+    -fx-background-color: #189735;
+}
+
+/*
+.button {
+    -fx-background-color: #80c800;
+    -fx-background-radius: 6;
+    -fx-background-insets: 0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #193300;
+    -fx-cursor: hand;
+}
+*/
+
+/*
+
+.button {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #193300;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #a8de26 45%, #70b800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+    -fx-cursor: hand;
+}
+
+.list-view {
+    -fx-background-radius: 5;
+    -fx-background-color: green;
+}
+
+*/

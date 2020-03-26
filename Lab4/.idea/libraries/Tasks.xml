@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Tasks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lab4/Tasks.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
